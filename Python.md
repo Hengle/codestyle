@@ -53,7 +53,7 @@ bad:
 
 ### 1.3 括号
 
-#### [强制] 宁缺毋滥地使用括号，除非是实现行连接，否则不要在返回语句或者条件语句中使用括号，不过在元祖两边使用括号是可以的。
+#### [强制] 宁缺毋滥地使用括号，除非是实现行连接，否则不要在返回语句或者条件语句中使用括号，不过在元组两边使用括号是可以的。
 
 示例：
 ```
@@ -116,6 +116,26 @@ bad：
 ### 1.5 空行
 
 #### [强制] 顶级定义之间空两行，比如函数或者类定义，方法定义。类之间的方法，函数之间都应该空一行。 
+
+示例：
+```
+    class Outer(object):
+        
+        def function_one():
+            pass
+    
+        def function_two():
+            pass
+
+
+    class Outer_two(object):
+ 
+        def function_one():
+            pass
+
+        def function_two():
+            pass
+ 
 
 
 ### 1.6 空格
@@ -474,8 +494,8 @@ local_var_name
 |Functions | 	lower_with_under() | _lower_with_under() |
 |Global/Class Constants | CAPS_WITH_UNDER| 	_CAPS_WITH_UNDER|
 |Global/Class Variables |	lower_with_under |	_lower_with_under|
-|Instance Variables| lower_with_under| 	_lower_with_under (protected) or __lower_with_under (private)|
-|Method Names|lower_with_under() |_lower_with_under() (protected) or __lower_with_under() (private) |
+|Instance Variables| lower_with_under| 	_lower_with_under (protected) or __lower_with_under(private)|
+|Method Names|lower_with_under() |_lower_with_under()(protected) or __lower_with_under()(private) |
 |Function/Method Parameters |	lower_with_under |  |	 
 |Local Variables| 	lower_with_under | | 	 
 
