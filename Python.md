@@ -1,4 +1,4 @@
-#Python编码规范
+# Python编码规范
 
 
 ##  1 代码风格
@@ -475,7 +475,7 @@ local_var_name
 |Global/Class Constants | CAPS_WITH_UNDER| 	_CAPS_WITH_UNDER|
 |Global/Class Variables |	lower_with_under |	_lower_with_under|
 |Instance Variables| lower_with_under| 	_lower_with_under (protected) or __lower_with_under (private)|
-|Method Names |	lower_with_under() |_lower_with_under() (protected) or __lower_with_under() (private) |
+|Method Names|lower_with_under() |_lower_with_under() (protected) or __lower_with_under() (private) |
 |Function/Method Parameters |	lower_with_under |  |	 
 |Local Variables| 	lower_with_under | | 	 
 
