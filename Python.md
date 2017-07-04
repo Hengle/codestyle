@@ -380,7 +380,7 @@ good：
     print ("This is much nicer.\n"
            "Do it this way.\n")
 
-    “”“This is a nice string"""
+    """This is a nice string"""
 ```
 ```
 bad：
