@@ -1,7 +1,7 @@
 
 # CSS编码规范
 
-##0 感谢
+## 0 感谢
 [晴空工作室](https://github.com/QKTeam)
 
 
